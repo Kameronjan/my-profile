@@ -65,6 +65,23 @@ ul {
   padding-left: 0px;
 }
 
+.btn-class {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  color: red;
+  border-radius: 10px;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.list-inline i {
+  width: 50px;
+  height: 50px;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -85,5 +102,6 @@ ul {
     width: 300px;
   }
 }
+
 
 /* How do I set up my icons to be like Borus's? ( 0 - 0 - 0 ) */
